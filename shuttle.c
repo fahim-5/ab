@@ -118,7 +118,7 @@ int main() {
         int *id = malloc(sizeof(int));
         *id = i;
         pthread_create(&passengers[i], NULL, passenger_func, id);
-        usleep(100000); // Small delay to simulate arrival spread
+        usleep(100000); 
     }
 
 
